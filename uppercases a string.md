@@ -35,7 +35,7 @@ int main(void)
   {
     if (s[i] >= 'a' && s[i] <= 'z')
     {
-      printf("%c", ('a' - 'A'));
+      printf("%c", s[i] - ('a' - 'A'));
     }
     else
       {
